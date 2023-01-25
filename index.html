@@ -28,6 +28,7 @@
       background-image: url(./images/desktop/image-header.jpg);
       height: 100vh;
       background-size: cover;
+      background-position: center;
     }
 
    .navigation ul{
@@ -70,7 +71,8 @@
       color: hsl(0, 0%, 100%);
       letter-spacing: 6px;
       margin-top: 120px;
-      padding-bottom: 150px;
+      font-size: 60px;
+      padding-bottom: 50px;
     }
 
     .header_2{
@@ -90,11 +92,12 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      padding-top: 150px;
+      padding-bottom: 180px;
       }
 
     .egg{
       background-image: url(./images/desktop/image-transform.jpg);
-      min-height: 100vh;
       background-repeat: no-repeat;
       background-size: cover;
       width: 50%;
@@ -104,7 +107,7 @@
       font-family: fraunces;
       font-weight: 900;
       font-size: 50px;
-      margin-left: 100px;
+      margin-left: 150px;
       margin-bottom: 50px;
       margin-right: 100px;
     }
@@ -113,16 +116,17 @@
       font-family: barlow;
       font-weight: 600;
       color: hsl(210, 4%, 67%);
-      font-size: 15px;
-      margin-left: 100px;
-      margin-right: 250px;
+      font-size: 16px;
+      margin-left: 150px;
+      margin-right: 150px;
+      line-height: 2;
     }
 
     .brand .p{
       font-family: fraunces;
       font-weight: 700;
-      font-size: 12px;
-      margin-left: 100px;
+      font-size: 14px;
+      margin-left: 150px;
       margin-top: 30px;
     }
 
@@ -141,7 +145,6 @@
 
     .bottle{
       background-image: url(./images/desktop/image-stand-out.jpg);
-      min-height: 100vh;
       background-repeat: no-repeat;
       background-size: cover;
       width: 50%;
@@ -154,6 +157,8 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      padding-top: 100px;
+      padding-bottom: 150px;
     }
 
     .stand h1{
@@ -170,8 +175,9 @@
       font-weight: 600;
       color: hsl(232, 10%, 55%);
       margin-left: 150px;
-      margin-right: 250px;
-      line-height: 25px;
+      margin-right: 150px;
+      line-height: 2;
+      font-size: 16px;
     }
 
     .stand_bottom{
@@ -194,24 +200,28 @@
 
     .graphic{
       background-image: url(./images/desktop/image-graphic-design.jpg);
-      min-height: 100vh;
+      padding-top: 500px;
       background-repeat: no-repeat;
       width: 50%;
       background-size: cover;
       display: flex;
       flex-direction: column;
       justify-content: end;
+      background-position: center;
+      line-height: 2;
     }
 
     .photography{
       background-image: url(./images/desktop/image-photography.jpg);
-      min-height: 100vh;
       background-repeat: no-repeat;
+      padding-top: 500px;
       width: 50%;
       background-size: cover;
       display: flex;
       flex-direction: column;
       justify-content: end;
+      background-position: center;
+      line-height: 2;
     }
 
     .graphic h1{
@@ -236,9 +246,9 @@
       font-family: barlow;
       font-weight: 600;
       color: hsl(167, 40%, 24%);
-      margin-bottom: 150px;
-      margin-left: 220px;
-      margin-right: 200px;
+      margin-bottom: 80px;
+      margin-left: 180px;
+      margin-right: 180px;
       display: flex;
       text-align: center;
     }
@@ -247,8 +257,8 @@
       font-family: barlow;
       font-weight: 600;
       color: hsl(198, 62%, 26%);
-      margin-bottom: 150px;
-      margin-left: 220px;
+      margin-bottom: 80px;
+      margin-left: 200px;
       margin-right: 200px;
       display: flex;
       text-align: center;
@@ -449,6 +459,11 @@
         .header_2{
           text-align: center;
         }
+
+        .header_2 h1{
+          font-size: 50px;
+          padding-bottom: 180px;
+        }
         .section{
           display: flex;
           flex-direction: column-reverse;
@@ -547,10 +562,10 @@
 
         .graphic{
           width: 100%;
+          padding-top: 300px;
           background-image: url(./images/mobile/image-graphic-design.jpg);
           background-position: center;
           background-size: cover;
-          min-height: 80vh;
         }
 
         .graphic_text{
@@ -561,10 +576,10 @@
 
         .photography{
           width: 100%;
+          padding-top: 300px;
           background-image: url(./images/mobile/image-photography.jpg);
           background-position: center;
           background-size: cover;
-          min-height: 80vh;
         }
 
         .photography_text{
@@ -753,7 +768,7 @@
     <div class="header">
            <div class="header_1">
               <div class="navigation">
-                <img height="auto" src="./images/logo.svg" alt="">
+                <img  src="./images/logo.svg" alt="">
                 <ul class="ul_1">
                   <li><a href="About.html">About</a></li>
                   <li><a href="Services.html">Services</a></li>
